@@ -1,0 +1,18 @@
+{
+  "name": "izea",
+  "version": "1.0.0",
+  "description": "At IZEA we have a set of services that power the IZEA ecosystem and Unity Suite. For this project, we would like you to build a link shortening service. This service will use some of the technology we use in our reference architecture.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  }
+}
